@@ -376,7 +376,8 @@ table {
 }
 
 table tr {
-    border-top: 1px solid var(--main-6);
+    /*border-top: 1px solid var(--main-6);*/
+    border-top: 1px solid #dfe2e5;
     margin: 0;
     padding: 0;
 }
@@ -388,7 +389,8 @@ thead {
 
 table tr th {
     font-weight: bold;
-    border: 1px solid var(--main-6);
+    /*border: 1px solid var(--main-6);*/
+    border: 1px solid #dfe2e5;
     border-bottom: 0;
     text-align: left;
     margin: 0;
@@ -396,7 +398,8 @@ table tr th {
 }
 
 table tr td {
-    border: 1px solid var(--main-6);
+    /*border: 1px solid var(--main-6);*/
+    border: 1px solid #dfe2e5;
     text-align: left;
     margin: 0;
     padding: 6px 13px;
@@ -427,7 +430,8 @@ table tr td:last-child {
 
 /* 表格第一行 */
 #write table thead th {
-    background-color: var(--main-7);
+    /*background-color: var(--main-7);*/
+    background-color: #0094ff;
     color: #f8f8f8;
 }
 
@@ -447,6 +451,7 @@ table tr td:last-child {
     font-family: 'Roboto Mono', 'Source Sans Pro', 'Microsoft YaHei', '微软雅黑' !important;
     font-size: 0.9rem;
     word-wrap: normal;
+    /*background-color: #c9bfbf;*/
 }
 
 #write [mdtype="math_block"]{
